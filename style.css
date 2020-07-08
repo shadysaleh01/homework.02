@@ -1,0 +1,56 @@
+body {
+  background-color: bisque;
+}
+
+.aboutMe {
+  width: 60%;
+  margin-left: 5%;
+  background-color: white;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+.aboutMe h1 {
+  color: rgb(218, 60, 60);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.p2 {
+  clear: both;
+}
+
+#navbar-brand {
+  color: white;
+  background-color: rgb(97, 194, 194);
+  margin: 0;
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navbar {
+  padding: 0;
+  padding-left: 70px;
+}
+
+.navbar-nav {
+  padding-right: 60px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  color: rgb(214, 211, 211);
+  font-size: 20px;
+  padding: 30px;
+  margin-top: 38rem;
+}
