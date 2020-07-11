@@ -1,56 +1,206 @@
 body {
   background-color: bisque;
-}
-
-.aboutMe {
-  width: 60%;
-  margin-left: 5%;
-  background-color: white;
-  margin-top: 5%;
-  padding: 2%;
-}
-
-.aboutMe h1 {
-  color: rgb(218, 60, 60);
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-img {
-  height: 200px;
-  width: 200px;
-  float: left;
-  margin-right: 2%;
-  margin-bottom: 2%;
-}
-
-.p2 {
-  clear: both;
-}
-
-#navbar-brand {
-  color: white;
-  background-color: rgb(97, 194, 194);
   margin: 0;
-  padding: 15px;
-  color: white;
-  font-size: 30px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-.navbar {
   padding: 0;
-  padding-left: 70px;
 }
 
-.navbar-nav {
-  padding-right: 60px;
-  font-size: 20px;
+@media screen and (min-width: 768px) {
+  .navbar-expand-lg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navbar-brand {
+    color: white;
+    background-color: rgb(51, 168, 168);
+    padding: 15px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 30px;
+  }
+
+  .navbar-nav {
+    display: inline-block;
+    padding: 0;
+    float: right;
+  }
+
+  ul li {
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 2px 10px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* The section */
+
+  section {
+    width: 100%;
+  }
+
+  .aboutMe {
+    width: 65%;
+    margin-left: 30px;
+    background-color: white;
+    margin-top: 35px;
+    padding: 25px;
+    position: absolute;
+  }
+  .aboutMe h1 {
+    color: rgb(51, 168, 168);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  img {
+    height: 300px;
+    width: 310px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    position: relative;
+  }
+  footer {
+    background-color: grey;
+    text-align: center;
+    color: rgb(214, 211, 211);
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 15rem;
+  }
 }
 
-footer {
-  background-color: grey;
-  text-align: center;
-  color: rgb(214, 211, 211);
-  font-size: 20px;
-  padding: 30px;
-  margin-top: 38rem;
+/* screen (max-width: 768px) */
+
+@media screen and (max-width: 768px) {
+  .navbar-expand-lg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navbar-brand {
+    color: white;
+    background-color: rgb(51, 168, 168);
+    padding: 15px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 30px;
+  }
+
+  /* the nav bar list */
+  .navbar-nav {
+    display: inline-block;
+
+    padding: 0;
+  }
+
+  ul li {
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 2px 10px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* The section */
+
+  section {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .aboutMe {
+    width: 94%;
+    margin: 3%;
+    background-color: white;
+    padding: 3%;
+  }
+  .aboutMe h1 {
+    color: rgb(51, 168, 168);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  img {
+    height: 300px;
+    width: 310px;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 2%;
+  }
+
+  footer {
+    background-color: grey;
+    text-align: center;
+    color: rgb(214, 211, 211);
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 38rem;
+  }
+}
+
+/* @media screen and (max-width: 640px) */
+
+@media screen and (max-width: 640px) {
+  .navbar-expand-lg {
+    padding: 0;
+    width: 100%;
+  }
+
+  #navbar-brand {
+    color: white;
+    width: 100%;
+    background-color: rgb(51, 168, 168);
+    margin: 0;
+    padding: 20px;
+    font-size: 33px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+  }
+
+  ul li {
+    font-size: 20px;
+    padding: 1%;
+    display: inline-block;
+  }
+
+  /* The section */
+
+  .aboutMe {
+    width: 90%;
+    margin: 5%;
+    background-color: white;
+    padding: 5%;
+  }
+
+  .aboutMe h1 {
+    color: rgb(51, 168, 168);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  .p1 {
+    clear: both;
+  }
+
+  /* footer */
+  footer {
+    background-color: grey;
+    text-align: center;
+    color: rgb(214, 211, 211);
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 13rem;
+  }
 }

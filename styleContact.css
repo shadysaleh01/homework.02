@@ -2,6 +2,26 @@ body {
   background-color: bisque;
 }
 
+#navbar-brand {
+  color: white;
+  background-color: rgb(97, 194, 194);
+  margin: 0;
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navbar {
+  padding: 0;
+  padding-left: 70px;
+}
+
+ul li {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+/* The form */
 form {
   background-color: white;
   width: 60%;
@@ -34,25 +54,6 @@ form button {
   background-color: rgb(57, 175, 175);
   color: white;
   font-size: 25px;
-}
-
-#navbar-brand {
-  color: white;
-  background-color: rgb(97, 194, 194);
-  margin: 0;
-  padding: 15px;
-  color: white;
-  font-size: 30px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-.navbar {
-  padding: 0;
-  padding-left: 70px;
-}
-
-.navbar-nav {
-  padding-right: 60px;
-  font-size: 20px;
 }
 
 footer {
