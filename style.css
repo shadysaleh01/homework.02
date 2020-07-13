@@ -3,8 +3,74 @@ body {
   margin: 0;
   padding: 0;
 }
+.navbar-expand-lg {
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+}
 
-@media screen and (min-width: 768px) {
+#navbar-brand {
+  color: white;
+  background-color: rgb(51, 168, 168);
+  padding: 15px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 30px;
+  /* width: 30%; */
+  /* float: left; */
+}
+
+.navbar-nav {
+  display: inline-block;
+  padding: 0;
+  /* width: 70%; */
+  text-align: right;
+  float: right;
+}
+
+ul li {
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 2px 10px;
+  display: inline-block;
+  /* text-align: center; */
+}
+
+/* The section */
+
+.aboutMe {
+  width: 65%;
+  margin-left: 30px;
+  background-color: white;
+  margin-top: 35px;
+  padding: 25px;
+  /* position: absolute; */
+}
+.aboutMe h1 {
+  color: rgb(51, 168, 168);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  height: 200px;
+  width: 210px;
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 2%;
+  position: relative;
+}
+footer {
+  clear: both;
+  background-color: grey;
+  text-align: center;
+  color: rgb(214, 211, 211);
+  font-size: 20px;
+  padding: 30px;
+  margin-top: 29rem;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+/* screen (max-width:980px) */
+@media screen and (max-width: 980px) {
   .navbar-expand-lg {
     width: 100%;
     margin: 0;
@@ -13,9 +79,9 @@ body {
 
   #navbar-brand {
     color: white;
-    background-color: rgb(51, 168, 168);
-    padding: 15px;
-    font-size: 30px;
+    background-color: rgb(57, 175, 175);
+    padding: 15px 25px;
+    font-size: 28px;
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-left: 30px;
   }
@@ -33,20 +99,21 @@ body {
     display: inline-block;
     text-align: center;
   }
+  ul li:hover {
+    background-color: rgb(57, 175, 175);
+    text-decoration: underline;
+    color: white;
+  }
 
   /* The section */
 
-  section {
-    width: 100%;
-  }
-
   .aboutMe {
-    width: 65%;
-    margin-left: 30px;
     background-color: white;
-    margin-top: 35px;
+    width: 65%;
+    margin-left: 45px;
+    margin-top: 40px;
     padding: 25px;
-    position: absolute;
+    /* position: absolute; */
   }
   .aboutMe h1 {
     color: rgb(51, 168, 168);
@@ -54,25 +121,25 @@ body {
   }
 
   img {
-    height: 300px;
-    width: 310px;
+    height: 200px;
+    width: 210px;
     float: left;
     margin-right: 3%;
     margin-bottom: 2%;
     position: relative;
   }
   footer {
+    clear: both;
     background-color: grey;
     text-align: center;
     color: rgb(214, 211, 211);
     font-size: 20px;
     padding: 30px;
-    margin-top: 15rem;
+    margin-top: 29rem;
   }
 }
-
+/* //////////////////////////////////////////////////////////////////////////// */
 /* screen (max-width: 768px) */
-
 @media screen and (max-width: 768px) {
   .navbar-expand-lg {
     width: 100%;
@@ -83,25 +150,31 @@ body {
   #navbar-brand {
     color: white;
     background-color: rgb(51, 168, 168);
-    padding: 15px;
-    font-size: 30px;
+    padding: 15px 25px;
+    font-size: 28px;
     font-family: Georgia, "Times New Roman", Times, serif;
-    margin-left: 30px;
+    margin-left: 22px;
   }
 
   /* the nav bar list */
   .navbar-nav {
     display: inline-block;
-
     padding: 0;
+    margin: 0;
   }
 
   ul li {
     font-size: 18px;
+    margin: 0;
     margin-right: 20px;
     padding: 2px 10px;
     display: inline-block;
     text-align: center;
+  }
+  ul li:hover {
+    color: white;
+    background-color: rgb(57, 175, 175);
+    text-decoration: underline;
   }
 
   /* The section */
@@ -115,7 +188,7 @@ body {
     width: 94%;
     margin: 3%;
     background-color: white;
-    padding: 3%;
+    padding: 4%;
   }
   .aboutMe h1 {
     color: rgb(51, 168, 168);
@@ -136,11 +209,12 @@ body {
     color: rgb(214, 211, 211);
     font-size: 20px;
     padding: 30px;
-    margin-top: 38rem;
+    margin-top: 33.3rem;
   }
 }
 
-/* @media screen and (max-width: 640px) */
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* screen (max-width: 640px) */
 
 @media screen and (max-width: 640px) {
   .navbar-expand-lg {
@@ -154,7 +228,7 @@ body {
     background-color: rgb(51, 168, 168);
     margin: 0;
     padding: 20px;
-    font-size: 33px;
+    font-size: 30px;
     font-family: Georgia, "Times New Roman", Times, serif;
     text-align: center;
   }
@@ -162,14 +236,20 @@ body {
   .navbar-nav {
     width: 100%;
     display: inline-block;
-    padding: 12px;
     text-align: center;
   }
 
   ul li {
-    font-size: 20px;
-    padding: 1%;
+    font-size: 18px;
+    padding: 1% 3%;
+    margin: 0;
     display: inline-block;
+  }
+
+  ul li:hover {
+    background-color: rgb(57, 175, 175);
+    text-decoration: underline;
+    color: white;
   }
 
   /* The section */
@@ -201,6 +281,6 @@ body {
     color: rgb(214, 211, 211);
     font-size: 20px;
     padding: 30px;
-    margin-top: 13rem;
+    margin-top: 6rem;
   }
 }
