@@ -1,31 +1,287 @@
 body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
   background-color: bisque;
+}
+
+.navbar-expand-lg {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #navbar-brand {
   color: white;
-  background-color: rgb(97, 194, 194);
-  margin: 0;
-  padding: 15px;
-  color: white;
-  font-size: 30px;
+  background-color: rgb(57, 175, 175);
+  padding: 15px 25px;
+  font-size: 28px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 30px;
 }
-.navbar {
+
+.navbar-nav {
+  display: inline-block;
   padding: 0;
-  padding-left: 70px;
+  float: right;
 }
 
 ul li {
-  margin-right: 50px;
-  font-size: 20px;
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 2px 10px;
+  display: inline-block;
+  text-align: center;
+}
+ul li:hover {
+  background-color: rgb(57, 175, 175);
+  text-decoration: underline;
+  color: white;
 }
 
+#portfolio {
+  background-color: white;
+  width: 60%;
+  margin: 35px;
+  padding: 25px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(51, 168, 168);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 footer {
+  clear: both;
   background-color: grey;
   text-align: center;
   color: rgb(214, 211, 211);
   font-size: 20px;
   padding: 30px;
-  margin-top: 25rem;
+  margin-top: 14rem;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 980px) {
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-expand-lg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navbar-brand {
+    color: white;
+    background-color: rgb(57, 175, 175);
+    padding: 15px 25px;
+    font-size: 28px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 30px;
+  }
+
+  .navbar-nav {
+    display: inline-block;
+    padding: 0;
+    float: right;
+  }
+
+  ul li {
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 2px 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  ul li:hover {
+    background-color: rgb(57, 175, 175);
+    text-decoration: underline;
+    color: white;
+  }
+
+  #portfolio {
+    background-color: white;
+    width: 60%;
+    margin: 35px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(51, 168, 168);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer {
+    clear: both;
+    background-color: grey;
+    text-align: center;
+    color: rgb(214, 211, 211);
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 14rem;
+  }
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-expand-lg {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #navbar-brand {
+    color: white;
+    background-color: rgb(51, 168, 168);
+    padding: 15px 25px;
+    font-size: 28px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 22px;
+  }
+
+  /* the nav bar list */
+  .navbar-nav {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 2px 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  ul li:hover {
+    color: white;
+    background-color: rgb(57, 175, 175);
+    text-decoration: underline;
+  }
+
+  #portfolio {
+    background-color: white;
+    width: 100%;
+    margin: 35px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(51, 168, 168);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    clear: both;
+    background-color: grey;
+    text-align: center;
+    color: rgb(214, 211, 211);
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 29rem;
+  }
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 640px) {
+  .navbar-expand-lg {
+    padding: 0;
+    width: 100%;
+  }
+
+  #navbar-brand {
+    color: white;
+    width: 100%;
+    background-color: rgb(51, 168, 168);
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  ul li {
+    font-size: 18px;
+    padding: 1% 3%;
+    margin: 0;
+    display: inline-block;
+  }
+
+  ul li:hover {
+    background-color: rgb(57, 175, 175);
+    text-decoration: underline;
+    color: white;
+  }
+
+  #portfolio {
+    width: 92%;
+    margin: 20px;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* .col-md-6 {
+    margin: 4%;
+  } */
+
+  footer {
+    clear: both;
+    background-color: grey;
+    text-align: center;
+    color: rgb(214, 211, 211);
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 29rem;
+  }
 }
