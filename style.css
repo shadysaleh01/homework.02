@@ -1,7 +1,10 @@
 body {
   background-color: bisque;
+  margin: 0;
+  margin: 0;
 }
 
+/* the header */
 .navbar-expand-lg {
   width: 100%;
   margin: 0;
@@ -19,6 +22,7 @@ body {
 
 .navbar-nav {
   display: inline-block;
+  margin: 0;
   padding: 0;
   float: right;
 }
@@ -37,17 +41,16 @@ ul li:hover {
 }
 
 /* The section */
-
 .aboutMe {
-  width: 65%;
-  margin-left: 30px;
   background-color: white;
-  margin-top: 35px;
+  margin-left: 30px;
+  margin-top: 40px;
   padding: 25px;
-  /* position: absolute; */
+  width: 65%;
 }
+
 .aboutMe h1 {
-  color: rgb(51, 168, 168);
+  color: rgb(57, 175, 175);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -57,79 +60,21 @@ img {
   float: left;
   margin-right: 3%;
   margin-bottom: 2%;
-  position: relative;
 }
+/* The footer */
 footer {
-  clear: both;
   background-color: grey;
   text-align: center;
   color: rgb(214, 211, 211);
   font-size: 20px;
   padding: 30px;
-  margin-top: 29rem;
+  margin-top: 32rem;
 }
 /* //////////////////////////////////////////////////////////////////////////// */
 /* screen (max-width:980px) */
 @media screen and (max-width: 980px) {
-  .navbar-expand-lg {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #navbar-brand {
-    color: white;
-    background-color: rgb(57, 175, 175);
-    padding: 15px 25px;
-    font-size: 28px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    margin-left: 30px;
-  }
-
-  .navbar-nav {
-    display: inline-block;
-    padding: 0;
-    float: right;
-  }
-
-  ul li {
-    font-size: 18px;
-    margin-right: 20px;
-    padding: 2px 10px;
-    display: inline-block;
-    text-align: center;
-  }
-  ul li:hover {
-    background-color: rgb(57, 175, 175);
-    text-decoration: underline;
-    color: white;
-  }
-
-  /* The section */
-
-  .aboutMe {
-    background-color: white;
-    width: 65%;
-    margin-left: 45px;
-    margin-top: 40px;
-    padding: 25px;
-    /* position: absolute; */
-  }
-  .aboutMe h1 {
-    color: rgb(51, 168, 168);
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-
-  img {
-    height: 200px;
-    width: 210px;
-    float: left;
-    margin-right: 3%;
-    margin-bottom: 2%;
-    position: relative;
-  }
+  /* footer */
   footer {
-    clear: both;
     background-color: grey;
     text-align: center;
     color: rgb(214, 211, 211);
@@ -141,68 +86,16 @@ footer {
 /* //////////////////////////////////////////////////////////////////////////// */
 /* screen (max-width: 768px) */
 @media screen and (max-width: 768px) {
-  .navbar-expand-lg {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #navbar-brand {
-    color: white;
-    background-color: rgb(51, 168, 168);
-    padding: 15px 25px;
-    font-size: 28px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    margin-left: 22px;
-  }
-
-  /* the nav bar list */
-  .navbar-nav {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-  }
-
-  ul li {
-    font-size: 18px;
-    margin: 0;
-    margin-right: 20px;
-    padding: 2px 10px;
-    display: inline-block;
-    text-align: center;
-  }
-  ul li:hover {
-    color: white;
-    background-color: rgb(57, 175, 175);
-    text-decoration: underline;
-  }
-
   /* The section */
-
-  section {
-    width: 100%;
-    /* height: 100%; */
-  }
-
   .aboutMe {
-    width: 94%;
-    margin: 3%;
+    width: 91%;
+    margin-left: 30px;
+    margin-top: 40px;
     background-color: white;
-    padding: 4%;
-  }
-  .aboutMe h1 {
-    color: rgb(51, 168, 168);
-    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 25px;
   }
 
-  img {
-    height: 300px;
-    width: 310px;
-    float: left;
-    margin-right: 3%;
-    margin-bottom: 2%;
-  }
-
+  /* The footer */
   footer {
     background-color: grey;
     text-align: center;
@@ -217,15 +110,12 @@ footer {
 /* screen (max-width: 640px) */
 
 @media screen and (max-width: 640px) {
-  .navbar-expand-lg {
-    padding: 0;
-    width: 100%;
-  }
+  /* The header */
 
   #navbar-brand {
     color: white;
     width: 100%;
-    background-color: rgb(51, 168, 168);
+    background-color: rgb(57, 175, 175);
     margin: 0;
     padding: 20px;
     font-size: 30px;
@@ -239,31 +129,12 @@ footer {
     text-align: center;
   }
 
-  ul li {
-    font-size: 18px;
-    padding: 1% 3%;
-    margin: 0;
-    display: inline-block;
-  }
-
-  ul li:hover {
-    background-color: rgb(57, 175, 175);
-    text-decoration: underline;
-    color: white;
-  }
-
   /* The section */
-
   .aboutMe {
     width: 90%;
     margin: 5%;
     background-color: white;
     padding: 5%;
-  }
-
-  .aboutMe h1 {
-    color: rgb(51, 168, 168);
-    font-family: Georgia, "Times New Roman", Times, serif;
   }
 
   img {
@@ -274,7 +145,7 @@ footer {
     clear: both;
   }
 
-  /* footer */
+  /* The footer */
   footer {
     background-color: grey;
     text-align: center;
