@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-image: url("image/background6.jpg");
   margin: 0;
   margin: 0;
 }
@@ -77,40 +77,26 @@ form button {
 /* The footer */
 footer {
   background-color: gray;
-  padding: 20px;
+  color: rgb(214, 211, 211);
+  padding: 10px;
   text-align: center;
   font-size: 20px;
-  margin-top: 24rem;
+  margin-top: 20rem;
 }
 /* //////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 980px) {
-  /* The footer */
-  footer {
-    background-color: gray;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 27rem;
-  }
+
 }
 /* ////////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 768px) {
   /* The form */
   form {
-    background-color: white;
-    margin-left: 30px;
-    margin-top: 40px;
-    padding: 25px;
     width: 91%;
   }
 
   /* The footer */
   footer {
-    background-color: grey;
-    text-align: center;
-    color: rgb(214, 211, 211);
-    font-size: 20px;
-    padding: 30px;
+    font-size: 18px;
     margin-top: 20.15rem;
   }
 }
@@ -143,11 +129,8 @@ footer {
 
   /* The footer */
   footer {
-    background-color: grey;
-    text-align: center;
-    color: rgb(214, 211, 211);
-    font-size: 20px;
-    padding: 30px;
+    font-size: 16px;
+    padding: 10px;
     margin-top: 21rem;
   }
 }

@@ -1,9 +1,11 @@
 body {
-  background-color: bisque;
+  background-image: url("image/background6.jpg");
   margin: 0;
   margin: 0;
+  /* display: flex;
+  flex-direction: column; */
 }
-
+  
 /* the header */
 .navbar-expand-lg {
   width: 100%;
@@ -97,25 +99,18 @@ img {
 footer {
   background-color: grey;
   text-align: center;
+  align-items: center;
   color: rgb(214, 211, 211);
   font-size: 20px;
-  padding: 30px;
-  /* margin-top: 52rem; */
+  padding: 10px;
+  align-content: flex-end;
+  margin-top: 8rem;
 }
 /* //////////////////////////////////////////////////////////////////////////// */
 /* screen (max-width:980px) */
 @media screen and (max-width: 980px) {
 
   
-  /* footer */
-  footer {
-    background-color: grey;
-    text-align: center;
-    color: rgb(214, 211, 211);
-    font-size: 20px;
-    padding: 30px;
-    /* margin-top: 29rem; */
-  }
 }
 /* //////////////////////////////////////////////////////////////////////////// */
 /* screen (max-width: 768px) */
@@ -152,12 +147,7 @@ footer {
   }
   /* The footer */
   footer {
-    background-color: grey;
-    text-align: center;
-    color: rgb(214, 211, 211);
-    font-size: 20px;
-    padding: 30px;
-    /* margin-top: 33.3rem; */
+    font-size: 18px
   }
 }
 
@@ -207,11 +197,7 @@ footer {
 
   /* The footer */
   footer {
-    background-color: grey;
-    text-align: center;
-    color: rgb(214, 211, 211);
-    font-size: 20px;
-    padding: 30px;
+    font-size: 16px;
     margin-top: 4rem;
   }
 }

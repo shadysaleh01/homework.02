@@ -1,8 +1,7 @@
 body {
-  width: 100%;
   padding: 0;
   margin: 0;
-  background-color: bisque;
+  background-image: url("image/background6.jpg");
 }
 
 /* The header */
@@ -87,8 +86,8 @@ footer {
   text-align: center;
   color: rgb(214, 211, 211);
   font-size: 20px;
-  padding: 30px;
-  margin-top: 29rem;
+  padding: 10px;
+  margin-top: 20rem;
 }
 
 /* ///////////////////////////////////////////////////////////////////// */
@@ -98,15 +97,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  footer {
-    clear: both;
-    background-color: grey;
-    text-align: center;
-    color: rgb(214, 211, 211);
-    font-size: 20px;
-    padding: 30px;
-    margin-top: 14rem;
-  }
+
 }
 
 /* //////////////////////////////////////////////////////////////////////// */
@@ -138,12 +129,7 @@ footer {
   }
 
   footer {
-    clear: both;
-    background-color: grey;
-    text-align: center;
-    color: rgb(214, 211, 211);
-    font-size: 20px;
-    padding: 30px;
+    font-size: 18px;
     margin-top: 18rem;
   }
 }
@@ -192,11 +178,7 @@ footer {
   }
 
   footer {
-    background-color: grey;
-    text-align: center;
-    color: rgb(214, 211, 211);
-    font-size: 20px;
-    padding: 30px;
+    font-size: 16px;
     margin-top: 12rem;
   }
 }
